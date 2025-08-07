@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+        <title> MeteoGo</title>
+    </head>
+    <body>
+        <main>
+            <section id="weather-wrapper">
+                <h id="meteogo"> MeteoGo </h1>
+                <div id="weather-search">
+                    <input id="search" type="text" placeholder="Buscar por ciudad" />
+                    <input id="submit" type="button" onclick="fetchWeather()" value="Buscar" />
+                </div>
+                <div id="weather-data" style="display: none;"></div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+    </html>
